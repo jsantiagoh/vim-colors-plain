@@ -158,7 +158,7 @@ call s:h("Search",        {"bg": s:selection, "fg": s:light_black})
 call s:h("MoreMsg",       {"fg": s:medium_gray, "cterm": "bold", "gui": "bold"})
 hi! link ModeMsg MoreMsg
 call s:h("LineNr",        {"fg": s:bg_subtle})
-call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:bg_very_subtle})
+call s:h("CursorLineNr",  {"fg": s:blue, "bg": s:white})
 call s:h("Question",      {"fg": s:red})
 call s:h("VertSplit",     {"bg": s:bg_very_subtle, "fg": s:bg_very_subtle})
 call s:h("Title",         {"fg": s:dark_blue})
